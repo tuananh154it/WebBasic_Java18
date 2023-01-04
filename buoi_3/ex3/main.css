@@ -1,0 +1,17 @@
+.background {
+  width: 1000px;
+  height: 1000px;
+  background-image: url('./image/20171208-100040-sSZEe4LV.jpg');
+  background-size: cover;
+  
+}
+.text {
+  width: 1000px;
+  height: fit-content;
+  background-color: rgba(0,0,0,0.5);
+}
+.text-style {
+  font-size: 100px;
+  color: aliceblue;
+  text-align: center;
+}
