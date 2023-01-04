@@ -1,5 +1,5 @@
 #gia {
-    color:rgb(99, 10, 182);
+    color:rgb(83, 0, 83);
 }
 #them {
     background-color: rgb(61, 2, 116);
@@ -11,8 +11,9 @@ img {
     width: 400px;
     height: 400px;
 }
-a {
+button {
     color: aliceblue;
+    background-color: rgb(120, 3, 159);
     font-size: 20px;
 }
 p {
