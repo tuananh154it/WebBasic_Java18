@@ -1,0 +1,28 @@
+#father {
+  height: fit-content;
+  width: 600px;
+  background-color: rgb(217, 242, 248);
+  border: 2px solid black;
+  padding-bottom: 30px;
+}
+#title {
+  text-align: center;
+  font-size: 40px;
+  color: rgb(0, 0, 0);
+  font-style: italic;
+  font-weight: bold;
+}
+.text {
+  font-style: italic;
+}
+#form { 
+  padding-top: 30px;
+  padding-left: 50px ;
+}
+#submit {
+  text-align: center;
+}
+#submit-button {
+  align-content: center;
+  background-color: rgb(242, 249, 147);
+}
