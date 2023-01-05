@@ -1,0 +1,62 @@
+#father {
+  background-color: rgb(1,25,38);
+}
+#son {
+  background-color: rgb(235,234,230);
+  
+}
+#content {
+  width: auto;
+  display: flex;
+}
+.text-content {
+  text-align: center;
+  padding: 10px;
+  font-size: 20px;
+}
+#right-text {
+  padding-top: 10%;
+  width: 70%;
+  float: right;
+}
+#right-content {
+  text-align: auto;
+}
+#text-on-header {
+  color: white;
+  text-align: center;
+  font-size: 20px;
+}
+.span-text {
+  padding: 10px;
+}
+#image {
+  width: 30%;
+  padding: 30px;
+  float: left;
+}
+#title {
+  text-align: center;
+  padding-top: 50px;
+}
+#button {
+  background-color: orange;
+  color: black;  
+  color: white;
+}
+#div-button {
+  width: fit-content;
+  padding-top: 40px;
+  margin: auto;
+}
+#footer {
+  text-align: center;
+  padding: 20px;
+}
+.footer-text {
+  color: white;
+}
+.footer-button {
+  width: 300px;
+  background-color: orange;
+}

@@ -1,0 +1,14 @@
+#father {
+  width: 400px;
+  height: 668px;
+  background-image: url('image.png');
+}
+#son {
+  height: 30px;
+  background-color: rgba(0, 100, 0,0.5);
+}
+#text {
+  padding-top: 5px;
+  font-size: 17px;
+  text-align: center;
+}
