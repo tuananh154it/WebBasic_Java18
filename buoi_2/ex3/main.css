@@ -1,6 +1,6 @@
 #father {
   height: fit-content;
-  width: 600px;
+  width: fit-content;
   background-color: rgb(217, 242, 248);
   border: 2px solid black;
   padding-bottom: 30px;
@@ -12,17 +12,22 @@
   font-style: italic;
   font-weight: bold;
 }
-.text {
-  font-style: italic;
-}
 #form { 
-  padding-top: 30px;
-  padding-left: 50px ;
+  margin: 100px;
 }
-#submit {
-  text-align: center;
+.text-in-form {
+  font-style: italic;
+  padding-right: 10px;
 }
-#submit-button {
-  align-content: center;
-  background-color: rgb(242, 249, 147);
+#button {
+  background-color: rgb(31, 195, 31);
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  width: 50px;
+  height: 25px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
 }

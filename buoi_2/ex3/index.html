@@ -8,22 +8,29 @@
   <body>
     <div id="father">
       <p id="title">Information</p>
-      <div id="form">
-        <p class="text">Full Name: <input type="text" name="name"></p>
-        <p class="text">Birthday: <input type="date" name="date"></p>
-        <div>
-          <p class="text">Gender: 
-            <input type="radio" name="Gender" value="Male"> Male
-            <input type="radio" name="Gender" value="gen"> Female
-            <input type="radio" name="Gender" value="Other" checked> Other
-          </p>
-        </div>
-        <p class="text">Phone number: <input type="phone" name="phone"></p>
-        <p class="text">Email: <input type="email" name="email" ></p>
-      </div>
-      <div id="submit">
-        <input type="submit" value="SUBMIT" id="submit-button">
-      </div>
+      <form action="tuananh.com" method="post" id="form">
+        <label for="name" class="text-in-form">Họ tên</label>
+        <input type="text" id="name" placeholder="nhập họ tên"> 
+        <br>
+        <label for="birthday" class="text-in-form">Ngày sinh</label>
+        <input type="date" id="birtday"> 
+        <br>
+        <label for="gender" class="text-in-form">Giới tính</label>
+        <input type="radio" name="gender" value="female" id="female">
+        <label for="female">Nam</label>
+        <input type="radio" name="gender" value="male" id="male">
+        <label for="male">Nữ</label>
+        <input type="radio" name="gender" value="other" id="other" checked>
+        <label for="other">Khác</label> 
+        <br>
+        <label for="phone" class="text-in-form">Số điện thoại</label>
+        <input type="phone" placeholder="nhập số điện thoại">
+        <br>
+        <label for="email" class="text-in-form">Email</label>
+        <input type="email" placeholder="nhập email">
+        <br>
+        <button id="button">Gửi</button>
+      </form>
     </div>
   </body>
 </html>
