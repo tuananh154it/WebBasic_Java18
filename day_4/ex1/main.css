@@ -1,0 +1,25 @@
+#block-1 {
+  display: inline-block;
+  border: 2px solid green;
+  padding: 0px 64px;
+  margin-right: 36px;
+}
+#block-2 {
+  display: inline-block;
+  border: 2px solid red;
+  padding: 36px 24px;
+  margin-bottom: 48px;
+}
+#block-3 {
+  border: 2px solid blue;
+  width: 480px;
+  padding-left: 24px;
+}
+#father {
+  display: block;
+  margin: auto;
+}
+.text {
+  font-size: 58px;
+  line-height: 0px;
+}
