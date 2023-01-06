@@ -33,3 +33,7 @@
   font-style: italic;
   color: red;
 }
+#product-card:hover #button {
+  color: aqua;
+  background-color: blueviolet;
+}
