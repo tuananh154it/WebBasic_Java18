@@ -11,13 +11,13 @@
   margin-bottom: 48px;
 }
 #block-3 {
+  display: block;
   border: 2px solid blue;
   width: 480px;
   padding-left: 24px;
 } 
 #father {
-  display: block;
-  margin: auto;
+  
 }
 .text {
   font-size: 58px;

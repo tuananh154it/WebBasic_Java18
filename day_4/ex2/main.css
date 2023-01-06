@@ -1,0 +1,45 @@
+#ex1 {
+  width: 300px;
+}
+li {
+  font-size: 30px;
+}
+li:first-child {
+  color: rgb(7, 107, 7);
+  background-color: rgba(127, 255, 212, 0.774);
+}
+li:last-child {
+  color: rgb(236, 2, 2);
+  background-color: rgba(232, 140, 140, 0.595);
+}
+#ex2 {
+  background-color: aquamarine;
+  width: 300px;
+}
+.text-ex2 {
+  font-size: 30px;
+  text-align: center;
+  margin: 0px;
+}
+.text-ex2:not(:last-child) {
+  border-bottom: 2px solid rgb(8, 55, 120);
+}
+#ex3 {
+  width: 300px;
+  height: 600;
+  background-color: aquamarine;
+}
+.block {
+  height: 100px;
+  width: 100px;
+  background-color: rgb(255, 0, 191);
+}
+.block:nth-child(3n+1) {
+  margin: 0px;
+}
+.block:nth-child(3n+2) {
+  margin:0px 100px;
+}
+.block:nth-child(3n) {
+  margin: 0px 200px;
+}
