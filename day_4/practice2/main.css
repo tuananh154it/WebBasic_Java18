@@ -1,0 +1,12 @@
+body {
+  width: 300px;
+}
+li {
+  font-size: 30px;
+  font-style: italic;
+}
+li:hover {
+  background-color: rgb(255, 0, 0);
+  color: yellow;
+  font-weight: bold;
+}

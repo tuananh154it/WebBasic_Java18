@@ -1,0 +1,35 @@
+#product-card {
+  width: fit-content;
+  border: 2px solid black;
+
+}
+#content {
+  margin: 30px;
+}
+#title {
+  text-align: center;
+  color: rgb(136, 9, 98);
+  font-size: 40px;
+  font-weight: bold;
+}
+#cost-title {
+  text-align: center;
+  font-size: 30px;
+
+}
+#cost {
+  color: red;
+}
+#button {
+  display: block;
+  margin: auto;
+  height: 30px;
+  width: 100px;
+  background-color: yellow;
+  border: none;
+}
+#product-card:hover #title {
+  background-color: yellow;
+  font-style: italic;
+  color: red;
+}
