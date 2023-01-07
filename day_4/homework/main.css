@@ -1,0 +1,196 @@
+body {
+  margin: 0px;
+}
+/* style for header */
+header {
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  background-color: rgb(79,145,205);
+}
+#header-nav {
+  display: inline-block;
+  padding-top: 20%;
+}
+#header-nav a {
+  text-decoration: none;
+  color: white;
+  padding:0px 10px ;
+}
+#header-nav a:hover {
+  color: rgb(48, 14, 171);
+}
+#header-nav a:not(:last-child) {
+  border-right: 1px solid rgb(181, 231, 239);
+}
+#title-div {
+  display: inline-block;
+}
+#header-title {
+  margin-top: 0px;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+#under-header-title {
+  text-align: center;
+  color: aquamarine;
+}
+#button-div {
+  display: inline-block;
+  text-align: end;
+  margin-top: 15%;
+  margin-right: 10%;
+}
+#button-div button {
+  color: white;
+  width: 100px;
+  height: 35px;
+  background-color: rgba(255, 255, 255, 0);
+  border: 1px solid white;
+  border-radius: 5px;
+}
+#button-div button:hover {
+  color: rgb(48, 14, 171);
+  border-color: rgb(48, 14, 171);
+}
+/* style for menu  */
+#menu {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  background-color: rgb(4,56,103);
+}
+#menu a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+#menu a:hover {
+  background-color: rgb(0,35,65);
+}
+/* tyle for image & text  */
+#title-image {
+  background-image: url(image.jpg);
+  background-size:cover;
+  padding: 80px 100px;
+}
+#text-in-image {
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+  padding: 40px;
+  margin: auto;
+}
+#text-in-image p{
+  color: white;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#text-in-image p:first-child {
+  font-size: 50px;
+  margin: 0px;
+  margin-bottom: 30px;
+}
+#text-in-image p:last-child {
+  font-size: 25px;
+  margin: 0px;
+}
+#under-image {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  padding: 30px;
+  background-color: rgb(122,161,32);
+}
+#under-image p {
+  color: white;
+  text-align: center;
+}
+#under-image p:first-child {
+  font-size: 50px;
+}
+#under-image p:last-child {
+  font-size: 25px;
+  
+}
+/* style for content 1 */
+#content-1 {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  /* column-gap: 20px; */
+}
+#content-1 div {
+  background-color: rgb(207, 221, 233);
+  border-radius: 5px;
+  margin : 20px;
+  padding: 10px;
+}
+#content-1 div p:first-child {
+  font-size: 30px;
+  color: rgb(103,160,209);
+  margin: 0px;
+}
+/* sytle for content 2 */
+#content-2 {
+  display: grid;
+  grid-template-columns: 33% 34% 33%;
+  /* column-gap: 20px; */
+}
+#content-2 div {
+  border-radius: 5px;
+  margin : 20px;
+  padding: 10px;
+}
+#firt {
+  background-color: rgb(98,14,110);
+}
+#second {
+  background-color: rgb(67,133,193);
+}
+.text-in-content-2 {
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+}
+#last {
+  display: grid;
+  border: 1px solid gray;
+  grid-template-rows: 20% 40% 40%;
+}
+#last p {
+  text-align: center;
+  font-size: 20px;
+  margin: 0px;
+}
+#last div {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  margin: 0px;
+}
+#last div p {
+  color:rgb(20, 96, 219)
+}
+#last div div p {
+  color:rgb(73, 219, 20)
+}
+#last div div {
+  border: 1px solid rgb(1, 239, 69);
+  padding: 10px;
+  border-radius: 5px;
+}
+/* style for footer  */
+#footer {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  margin: auto
+}
+#footer button {
+  margin: 10px;
+  height: 30px;
+  color: rgb(35, 130, 218);
+  background-color: rgba(255, 255, 255, 0);
+  border: 2px solid rgb(35, 130, 218);
+  border-radius: 5px;
+}
+#footer button:hover {
+  color: rgb(21, 85, 145);
+  font-weight: bold;
+  border-color: rgb(21, 73, 121);
+}
