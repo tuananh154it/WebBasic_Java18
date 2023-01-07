@@ -1,5 +1,11 @@
 body {
   width: 300px;
+  border: 1px solid red;
+  padding: 20px;
+}
+#title {
+  text-align: center;
+  color: rgb(76, 0, 255);
 }
 li {
   font-size: 30px;
