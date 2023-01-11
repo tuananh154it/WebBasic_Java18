@@ -1,0 +1,39 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  width: 500px;
+  height: 500px;
+  background-color: aqua;
+  margin: 50px;
+}
+/* line  */
+.line {
+  position: relative;
+  left: 249px;
+  width: 1px;
+  height: 500px;
+  background-color: black;
+}
+.circle {
+  width: 150px;
+  height: 150px;
+  border: 3px solid black;
+  border-radius: 50%;
+}
+.circle-1 {
+  position: relative;
+  bottom: 500px;
+}
+.circle-2 {
+  position: relative;
+  left: 175px;
+  bottom: 480px;
+}
+.circle-3 {
+  position: relative;
+  left: 350px;
+  bottom:450px;
+}
