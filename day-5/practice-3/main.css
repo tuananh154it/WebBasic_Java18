@@ -6,19 +6,21 @@
 /*  style for parent */
 #parent {
   display: flex;
+  height: 700px;
   gap: 30px;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
 }
 
 /* style for box  */
 .box {
+  width: 400px;
+  height: 420px;
   background-color: rgba(227, 222, 222, 0.632);
   padding: 10px;
 }
 /* style for box-1  */
-.box-1 {
-  width: 30%;
-}
 .box-1 div {
   text-align: center;
 }
@@ -30,7 +32,7 @@
 /* style for box-2 */
 .box-2 {
   display: flex;
-  width: 30%;align-items: center;
+  align-items: center;
 }
 .box-2 div:first-child {
   width:50%;
@@ -51,22 +53,27 @@
   margin-bottom: 30px;
 }
 /* style for box-3 */
-.box-3 {
-  width: 30%;
-}
-.box-3 div:first-child {
-  width: 35%;
-  margin: auto;
+.box-3 div{
+  display: block;
+  width: 100%;
 }
 .box-3 div p {
   text-align: center;
 }
 .box-3 div p:first-child {
-  font-size: 30px;
+  font-size: 25px;
   font-weight: bold;
   margin-bottom: 30px
+}
+.box-3 div:first-child {
+  display: flex;
+  justify-content: center;
 }
 /* style for img  */
 div img {
   width: 100%;
+}
+.box-3 div img{
+  display: block;
+  width: 50%;
 }
