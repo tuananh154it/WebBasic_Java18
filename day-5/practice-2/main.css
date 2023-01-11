@@ -1,0 +1,82 @@
+* {
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+/* style for title-div */
+.title {
+  width: 100%;
+  margin: 50px;
+  border: 3px solid purple;
+  border-radius: 10px;
+  background-color: rgba(238, 255, 0, 0.866);
+}
+.title p {
+  font-size: 50px;
+  color: rgb(166, 3, 106);
+  font-weight: bold;
+  text-align: center;
+}
+/* style fỏ list  */
+#list {
+  display: flex;
+  background-image: url(image/background.jpg);
+  background-repeat: repeat-y;
+  background-size: contain;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-evenly;
+}
+/* //style for box  */
+.box {
+  display: flex;
+  width: 300px;
+  height: 280px;
+  background-color: rgba(248, 248, 248, 0.926);
+  align-items: center;
+  border: 2px dashed rgba(11, 172, 0, 0.967);
+  border-radius: 5px;
+}
+.box:hover{
+  border: 3px dotted red;
+  width: 60%px;
+}
+.box:hover img {
+  width: 110%;
+}
+.box:hover h1 {
+  font-size: 90%;
+  color: red;
+}
+.box div {
+  width: 50%;
+}
+.box div img {
+  width: 100%;
+}
+.box div button {
+  font-weight: bold;
+  background-color: rgb(255, 182, 46);
+  border: 1px solid rgb(203, 58, 0);
+  border-radius: 3px;
+  padding: 3px;
+}
+.box div button:hover {
+  background-color: aqua;
+  color: red;
+  border-color: purple;
+}
+/* style for title */
+.box div h1 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.box div p {
+  font-style: italic;
+  text-align: center;
+}
+.box div button {
+  display: block;
+  margin: 20px auto 0px auto;
+}
