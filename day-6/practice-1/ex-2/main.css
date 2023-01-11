@@ -1,0 +1,30 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.parent {
+  background-color: rgb(1,227,127);
+  padding: 50px 0px;
+}
+.card {
+  width: 400px;
+  height: 500px;
+  background-color: white;
+  border: 1px solid green;
+  border-radius: 10px;
+  margin: auto;
+}
+.image-div {
+  position: relative;
+  bottom: 450px;
+  right: 120px;
+  width: 250px;
+  height: 350px;
+  background-color: green;
+  border-radius: 10px;
+  margin: auto;
+}
+img {
+  position: absolute;
+}

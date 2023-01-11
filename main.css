@@ -1,0 +1,48 @@
+* {
+  margin:0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  border-bottom: 1px solid black;
+}
+.button button {
+  width: 100px;
+  height: 40px;
+  background-color: aqua;
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+  border-radius: 10px;
+}
+#button-1 {
+  color: blue;
+  transition: background-color 0.5s, color 0.5s;
+}
+#button-1:hover {
+  color: red;
+  background-color: yellow;
+}
+#button-2 {
+  transition: width 2s, height 1s;
+}
+#button-2:hover {
+  width: 200px;
+  height: 80px;
+}
+#button-3 {
+  transition: transform 2s;
+}
+#button-3:hover {
+  transform: rotate(360deg);
+}
+#button-4 {
+  transition: box-shadow 0.5s,transform 2s;
+}
+#button-4:hover {
+  transform: translate(0px,-30px);
+  box-shadow: 10px 10px 10px rgb(0, 0, 0);
+}
