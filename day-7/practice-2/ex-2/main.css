@@ -15,7 +15,7 @@ img {
 }
 @keyframes avtkey {
   50% {
-    transform: scale(1.5);
+    transform: translate(0px,-60px);
     box-shadow: 10px 10px 30px black;
   }
 }
