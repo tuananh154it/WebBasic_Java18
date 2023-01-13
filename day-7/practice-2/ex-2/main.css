@@ -1,0 +1,21 @@
+
+.avt {
+  position: relative;
+  top:150px;
+  left: 200px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  border: 3px solid black;
+  animation: avtkey 3s infinite;
+}
+img {
+  width: 100%;
+  border-radius: 50%;
+}
+@keyframes avtkey {
+  50% {
+    transform: scale(1.5);
+    box-shadow: 10px 10px 30px black;
+  }
+}
