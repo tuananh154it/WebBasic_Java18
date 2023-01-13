@@ -16,3 +16,11 @@
 li::marker {
   content: '🧡';
 }
+a {
+  text-decoration: none;
+}
+a::before {
+  content: ">_< ";
+  color: blueviolet;
+  font-size: 30px;
+}
