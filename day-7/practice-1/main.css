@@ -1,0 +1,18 @@
+#lyric::selection {
+  background-color: rgb(208, 255, 0);
+  color: red;
+}
+#text::before {
+  content: " day la bai hat";
+  color: aqua;
+  font-size: 30px;
+}
+#text::after {
+  content: " mot con vit xoe ra hay cai canh";
+  color: rebeccapurple;
+  font-size: 20px;
+  font-style: italic;
+}
+li::marker {
+  content: '🧡';
+}
