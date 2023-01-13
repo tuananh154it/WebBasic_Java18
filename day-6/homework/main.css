@@ -13,21 +13,24 @@
 }
 .box-1 {
   background-color: red;
+  transform-origin: top left;
 }
 .box-2 {
   background-color: yellow;
+  transform-origin: top right;
   top:0px;
   right: 0px;
 }
 .box-3 {
   background-color: blue;
   bottom:0px;
-
+  transform-origin: bottom left;
 }
 .box-4 {
   background-color: green;
   bottom: 0px;
   right: 0px;
+  transform-origin: bottom right;
 }
 .text {
   width: 400px;
@@ -45,16 +48,16 @@
 }
 /* :hover */
 .main:hover .box-1 {
-  transform: rotateZ(90deg) translate(0px,200px);
+  transform: rotateZ(90deg);
 }
 .main:hover .box-2 {
-  transform: rotateZ(-90deg) translate(0px,200px);
+  transform: rotateZ(-90deg);
 }
 .main:hover .box-3 {
-  transform: rotateZ(-90deg) translate(0px,-200px);
+  transform: rotateZ(-90deg);
 }
 .main:hover .box-4 {
-  transform: rotateZ(90deg) translate(0px,-200px);
+  transform: rotateZ(90deg);
 }
 .main:hover .text p {
   color: red;
