@@ -1,0 +1,61 @@
+.main {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: auto;
+}
+.box {
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  transition: transform 1s, color 2s 2s;
+  z-index: 2;
+}
+.box-1 {
+  background-color: red;
+}
+.box-2 {
+  background-color: yellow;
+  top:0px;
+  right: 0px;
+}
+.box-3 {
+  background-color: blue;
+  bottom:0px;
+
+}
+.box-4 {
+  background-color: green;
+  bottom: 0px;
+  right: 0px;
+}
+.text {
+  width: 400px;
+  top:160px;
+  z-index: 1;
+}
+.text p {
+  color: rgb(0, 64, 255);
+  font-size: 30px;
+  font-weight: bold;
+}
+.text {
+  font-size: 30px;
+  text-align: center;
+}
+/* :hover */
+.main:hover .box-1 {
+  transform: rotateZ(90deg) translate(0px,200px);
+}
+.main:hover .box-2 {
+  transform: rotateZ(-90deg) translate(0px,200px);
+}
+.main:hover .box-3 {
+  transform: rotateZ(-90deg) translate(0px,-200px);
+}
+.main:hover .box-4 {
+  transform: rotateZ(90deg) translate(0px,-200px);
+}
+.main:hover .text p {
+  color: red;
+}
