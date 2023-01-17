@@ -1,0 +1,8 @@
+.parent {
+  display: flex;
+  justify-content: center;
+  background-color: gray;
+}
+.top-right a {
+  text-decoration: none;
+}
